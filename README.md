@@ -42,11 +42,11 @@ After downloading all needed libraries....
 
 * For edge detection testing, add this code to the terminal:
 
->python main.py --model pidinet_converted --config carv4 --sa --dil -j 4 --gpu 0 --savedir /path/to/savedir --datadir /path/to/custom_images --dataset Custom --evaluate /path/to/table5_pidinet/save_models/saved_model.pth --evaluate-converted
+>python main.py --model pidinet_converted --config carv4 --sa --dil -j 4 --gpu 0 --savedir /path/to/savedir --datadir /path/to/custom_images --dataset Custom --evaluate /path/to/trained_models/table5_pidinet/save_models/saved_model.pth --evaluate-converted
 
 * Example:
 
->python main.py --model pidinet_converted --config carv4 --sa --dil -j 4 --gpu 0 --savedir "C:/Users/THINKPAD/PycharmProjects/pidinet/data/BSDS500" --datadir "C:/Users/THINKPAD/PycharmProjects/pidinet/data/BSDS500/custom_images" --dataset Custom –evaluate "C:/Users/THINKPAD/PycharmProjects/pidinet/trained_models/table5_pidinet.pth" --evaluate-converted
+>python main.py --model pidinet_converted --config carv4 --sa --dil -j 4 --gpu 0 --savedir "C:/Users/THINKPAD/PycharmProjects/pidinet/data/BSDS500" --datadir "C:/Users/THINKPAD/PycharmProjects/pidinet/data/BSDS500/custom_images" --dataset Custom –-evaluate "C:/Users/THINKPAD/PycharmProjects/pidinet/trained_models/table5_pidinet.pth" --evaluate-converted
 
 
 
