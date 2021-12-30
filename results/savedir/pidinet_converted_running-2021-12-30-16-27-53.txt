@@ -1,0 +1,4 @@
+
+conv weights: lr 0.005000, wd 0.000100	bn weights: lr 0.005000, wd 0.000010	relu weights: lr 0.005000, wd 0.000000
+=> loading checkpoint from '/save_models/saved_model.pth'
+no checkpoint loaded
